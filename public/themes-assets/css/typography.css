@@ -1,0 +1,1016 @@
+ @font-face {
+     font-family: "28 Days Later";
+     src: url("../fonts/28-Days-Later/28_Days_Later.eot?") format("eot"),
+         url("../fonts/28-Days-Later/28_Days_Later.woff") format("woff"), url("../fonts/28-Days-Later/28_Days_Later.ttf") format("truetype"),
+         url("../fonts/28-Days-Later/28_Days_Later.svg#") format("svg");
+     font-weight: normal;
+     font-style: normal;
+ }
+
+
+ @font-face {
+     font-family: 'Snowtop Caps';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Regular'), url('../fonts/SnowtopCaps/SnowtopCaps.otf') format('woff');
+ }
+
+
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Regular';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Regular'), url('../fonts/TT-Norms-Pro-Regular.woff') format('woff');
+ }
+
+ .theme-font-regular {
+     font-family: 'TT Norms Pro Regular';
+ }
+
+ @font-face {
+     font-family: 'TT Norms Pro Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Italic'), url('../fonts/TT-Norms-Pro-Italic.woff') format('woff');
+ }
+
+ .theme-font-italic {
+     font-family: 'TT Norms Pro Italic';
+ }
+
+ @font-face {
+     font-family: 'TT Norms Pro Thin';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Thin'), url('../fonts/TT-Norms-Pro-Thin.woff') format('woff');
+ }
+
+ .theme-font-thin {
+     font-family: 'TT Norms Pro Thin';
+ }
+
+ @font-face {
+     font-family: 'TT Norms Pro Thin Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Thin Italic'), url('../fonts/TT-Norms-Pro-Thin-Italic.woff') format('woff');
+ }
+
+ .theme-font-thin-italic {
+     font-family: 'TT Norms Pro  Thin Italic';
+ }
+
+ @font-face {
+     font-family: 'TT Norms Pro ExtraLight';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro ExtraLight'), url('../fonts/TT-Norms-Pro-ExtraLight.woff') format('woff');
+ }
+
+ .theme-font-extra-light {
+     font-family: 'TT Norms Pro  ExtraLight';
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro ExtraLight Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro ExtraLight Italic'), url('../fonts/TT-Norms-Pro-ExtraLight-Italic.woff') format('woff');
+ }
+
+ .theme-font-extra-light-italic {
+     font-family: 'TT Norms Pro ExtraLight Italic';
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Light';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Light'), url('../fonts/TT-Norms-Pro-Light.woff') format('woff');
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Light Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Light Italic'), url('../fonts/TT-Norms-Pro-Light-Italic.woff') format('woff');
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Medium';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Medium'), url('../fonts/TT-Norms-Pro-Medium.woff') format('woff');
+ }
+
+ .theme-font-medium {
+     font-family: 'TT Norms Pro Medium';
+ }
+
+ @font-face {
+     font-family: 'TT Norms Pro Medium Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Medium Italic'), url('../fonts/TT-Norms-Pro-Medium-Italic.woff') format('woff');
+ }
+
+ .theme-font-medium-italic {
+     font-family: 'TT Norms Pro Medium Italic';
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Bold';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Bold'), url('../fonts/TT-Norms-Pro-Bold.woff') format('woff');
+ }
+
+ .theme-font-medium-bold {
+     font-family: 'TT Norms Pro Bold';
+ }
+
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Bold Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Bold Italic'), url('../fonts/TT-Norms-Pro-Bold-Italic.woff') format('woff');
+ }
+
+ .theme-font-medium-bold-italic {
+     font-family: 'TT Norms Pro Bold Italic';
+ }
+
+ @font-face {
+     font-family: 'TT Norms Pro ExtraBold';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro ExtraBold'), url('../fonts/TT-Norms-Pro-ExtraBold.woff') format('woff');
+ }
+
+ .theme-font-extra-bold {
+     font-family: 'TT Norms Pro ExtraBold';
+ }
+
+ @font-face {
+     font-family: 'TT Norms Pro ExtraBold Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro ExtraBold Italic'), url('../fonts/TT-Norms-Pro-ExtraBold-Italic.woff') format('woff');
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Black';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Black'), url('../fonts/TT-Norms-Pro-Black.woff') format('woff');
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro Black Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro Black Italic'), url('../fonts/TT-Norms-Pro-Black-Italic.woff') format('woff');
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro ExtraBlack';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro ExtraBlack'), url('../fonts/TT-Norms-Pro-ExtraBlack.woff') format('woff');
+ }
+
+
+ @font-face {
+     font-family: 'TT Norms Pro ExtraBlack Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('TT Norms Pro ExtraBlack Italic'), url('../fonts/TT-Norms-Pro-ExtraBlack-Italic.woff') format('woff');
+ }
+
+
+ /* image size */
+ /* @media (max-width: 960px) {
+
+     .uk-media-650,
+     .uk-media-450,
+     .uk-media-520 {
+         height: 300px !important;
+     }
+
+ }
+*/
+ .uk-media-author-lg img,
+ .uk-media-author-sm img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .uk-media-author-lg {
+     width: 100px;
+     height: 100px;
+     ;
+ }
+
+ .uk-media-author-sm {
+     width: 70px;
+     height: 70px;
+     ;
+ }
+
+ .uk-media-small img,
+ .uk-media-50 img,
+ .uk-media-60 img,
+ .uk-media-70 img,
+ .uk-media-80 img,
+ .uk-media-100 img,
+ .uk-media-110 img,
+ .uk-media-120 img,
+ .uk-media-130 img,
+ .uk-media-140 img,
+ .uk-media-150 img,
+ .uk-media-160 img,
+ .uk-media-170 img,
+ .uk-media-180 img,
+ .uk-media-190 img,
+ .uk-media-200 img,
+ .uk-media-205 img,
+ .uk-media-240 img,
+ .uk-media-250 img,
+ .uk-media-260 img,
+ .uk-media-270 img,
+ .uk-media-280 img,
+ .uk-media-290 img,
+ .uk-media-300 img,
+ .uk-media-350 img,
+ .uk-media-400 img,
+ .uk-media-450 img,
+ .uk-media-480 img,
+ .uk-media-500 img,
+ .uk-media-520 img,
+ .uk-media-550 img,
+ .uk-media-560 img,
+ .uk-media-570 img,
+ .uk-media-580 img,
+ .uk-media-590 img,
+ .uk-media-600 img,
+ .uk-media-650 img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .uk-media-small {
+     width: 79px;
+     height: 79px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-50 {
+     width: 50px;
+     height: 50px;
+     overflow: hidden;
+ }
+
+ .uk-media-60 {
+     width: 60px;
+     height: 60px;
+     overflow: hidden;
+ }
+
+ .uk-media-70 {
+     width: 70px;
+     height: 70px;
+     overflow: hidden;
+ }
+
+ .uk-media-80 {
+     width: 80px;
+     height: 80px;
+     overflow: hidden;
+ }
+
+ .uk-media-100 {
+     width: 100px;
+     height: 100px;
+     overflow: hidden;
+ }
+
+ .uk-media-110 {
+     width: 100%;
+     height: 110px;
+     overflow: hidden;
+ }
+
+ .uk-media-120 {
+     width: 100%;
+     height: 120px;
+     overflow: hidden;
+ }
+
+ .uk-media-130 {
+     width: 100%;
+     height: 130px;
+     overflow: hidden;
+ }
+
+ .uk-media-140 {
+     width: 100%;
+     height: 140px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-150 {
+     width: 100%;
+     height: 150px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-160 {
+     width: 100%;
+     height: 160px;
+     overflow: hidden;
+ }
+
+ .uk-media-170 {
+     width: 100%;
+     height: 170px;
+     overflow: hidden;
+ }
+
+ .uk-media-180 {
+     width: 100%;
+     height: 180px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-190 {
+     width: 100%;
+     height: 190px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-200 {
+     width: 100%;
+     height: 200px;
+     overflow: hidden;
+ }
+
+ .uk-media-205 {
+     width: 100%;
+     height: 205px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-240 {
+     width: 100%;
+     height: 240px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-250 {
+     width: 100%;
+     height: 250px;
+     overflow: hidden;
+ }
+
+
+
+ .uk-media-260 {
+     width: 100%;
+     height: 260px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-270 {
+     width: 100%;
+     height: 270px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-280 {
+     width: 100%;
+     height: 280px;
+     overflow: hidden;
+ }
+
+ .uk-media-290 {
+     width: 100%;
+     height: 290px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-300 {
+     width: 100%;
+     height: 300px;
+     overflow: hidden;
+ }
+
+
+
+ .uk-media-350 {
+     width: 100%;
+     height: 350px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-400 {
+     width: 100%;
+     height: 400px;
+     overflow: hidden;
+ }
+
+
+
+ .uk-media-450 {
+     width: 100%;
+     height: 450px;
+     overflow: hidden;
+ }
+
+ .uk-media-480 {
+     width: 100%;
+     height: 480px;
+     overflow: hidden;
+ }
+
+
+
+ .uk-media-500 {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+ }
+
+ .uk-media-520 {
+     width: 100%;
+     height: 520px;
+     overflow: hidden;
+ }
+
+ .uk-media-550 {
+     width: 100%;
+     height: 550px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-560 {
+     width: 100%;
+     height: 560px;
+     overflow: hidden;
+ }
+
+ .uk-media-570 {
+     width: 100%;
+     height: 570px;
+     overflow: hidden;
+ }
+
+ .uk-media-580 {
+     width: 100%;
+     height: 580px;
+     overflow: hidden;
+ }
+
+ .uk-media-590 {
+     width: 100%;
+     height: 590px;
+     overflow: hidden;
+ }
+
+
+
+ .uk-media-600 {
+     width: 100%;
+     height: 600px;
+     overflow: hidden;
+ }
+
+
+ .uk-media-650 {
+     width: 100%;
+     height: 650px;
+     overflow: hidden;
+ }
+
+
+ /* image size end */
+
+
+ /* button solid*/
+ .uk-no-border {
+     border: none !important;
+ }
+
+ .uk-button-white-np-bg {
+     color: var(--white);
+ }
+
+ button.read-more {
+     background: none;
+     color: var(--primary);
+     border-radius: 30px;
+     margin-bottom: 20px;
+     font-size: 20px;
+     padding: 0;
+     font-weight: 800 !important;
+ }
+
+ .uk-button-small,
+ button.uk-button-small,
+ a.uk-button-small {
+     padding: 5px 15px;
+     line-height: 28px;
+     outline: 0;
+     display: block;
+     line-height: 15px;
+ }
+
+ .uk-button-xsmall,
+ button.uk-button-xsmall,
+ a.uk-button-xsmall {
+     padding: 5px;
+     font-size: 15px;
+     outline: 0;
+     display: inline-block;
+ }
+
+ .uk-button {
+     position: relative;
+     outline: 0;
+ }
+
+ .uk-button:after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     background-color: rgba(255, 255, 255, 0.4);
+     -webkit-transition: none;
+     -moz-transition: none;
+     transition: none;
+ }
+
+ .uk-button:hover:after,
+ .uk-button:focus:after {
+     width: 100%;
+     background-color: rgba(255, 255, 255, 0);
+
+     -webkit-transition: all 0.6s ease-in-out;
+     -moz-transition: all 0.6s ease-in-out;
+     transition: all 0.6s ease-in-out;
+ }
+
+
+
+
+ .uk-button span.uk-icon {
+     border: solid 1px;
+     border-radius: 50%;
+     width: 20px;
+     height: 20px;
+     margin-left: 10px;
+ }
+
+ .uk-button:hover span.uk-icon {
+     background: var(--bg-white);
+     color: var(--primary);
+     border-color: var(--white);
+ }
+
+ .uk-button {
+     font-size: inherit;
+     text-transform: inherit;
+     line-height: 40px;
+     transition: .25s ease-in-out;
+     -webkit-transition: ease-out 0.4s;
+     -moz-transition: ease-out 0.4s;
+     transition: ease-out 0.4s;
+     cursor: pointer;
+     border: 0;
+
+ }
+
+ .uk-button-large {
+     line-height: 50px;
+     border: 0;
+ }
+
+ .uk-button-primary {
+     background: var(--bg-primary);
+     color: var(--white);
+     cursor: pointer;
+ }
+
+ .uk-button-primary:hover,
+ .uk-button-primary:focus {
+     background: var(--bg-primary);
+     opacity: .9;
+
+ }
+
+ .uk-button-secondary {
+     background: var(--bg-secondary);
+     color: var(--white);
+     cursor: pointer;
+ }
+
+ .uk-button-secondary:hover,
+ .uk-button-secondary:focus {
+     background: var(--bg-primary);
+
+ }
+
+ .uk-button-white {
+     background: var(--bg-white);
+     color: var(--primary);
+     cursor: pointer;
+ }
+
+ .uk-button-white:hover,
+ .uk-button-white:focus {
+     background: var(--bg-primary);
+     color: var(--white);
+
+ }
+
+ .uk-button-black {
+     background: var(--bg-black);
+     color: var(--white);
+     cursor: pointer;
+ }
+
+ .uk-button-black:hover,
+ .uk-button-black:focus {
+     background: var(--bg-primary);
+     color: var(--white);
+
+ }
+
+ /* end button solid*/
+ /*home page button*/
+ .uk-button-home {
+     padding: 15px 15px;
+     text-align: center;
+     font-weight: 600;
+ }
+
+ .uk-button-home-white span,
+ .uk-button-home-primary span,
+ .uk-button-home-secondary span {
+     width: 30px;
+     height: 30px;
+     line-height: 30px;
+     border-radius: 50%;
+     margin-right: 15px;
+     transition: all .5s;
+     -moz-transition: all .5s;
+     -webkit-transition: all .5s;
+     -o-transition: all .5s;
+     -ms-transition: all .5s;
+
+ }
+
+ .uk-button-home:hover span {
+     transition: transform .4s ease;
+     transform: translateX(0.5rem);
+ }
+
+ .uk-button-home-white {
+     color: var(--white);
+     font-weight: 600;
+ }
+
+ .uk-button-home-primary {
+     color: var(--primary);
+     font-weight: 600;
+ }
+
+ .uk-button-home-secondary {
+     color: var(--secondary);
+     font-weight: 600;
+ }
+
+ .uk-button-home-white span {
+     border: solid 2px var(--white);
+     background: var(--bg-white);
+     color: var(--primary);
+
+ }
+
+ .uk-button-home-primary span {
+     border: solid 2px var(--primary);
+     color: var(--white);
+
+ }
+
+ .uk-button-home-secondary span {
+     border: solid 2px var(--secondary);
+     background: var(--bg-secondary);
+
+ }
+
+ .uk-button-home-white:hover span,
+ .uk-button-home-white:focus span {
+     background: var(--bg-primary);
+     color: var(--white);
+     border-color: var(--bg-primary);
+ }
+
+ .uk-button-home-primary:hover span,
+ .uk-button-home-primary:focus span {
+     background: none;
+     color: var(--primary);
+     border-color: var(--bg-primary);
+ }
+
+ /*end home page button*/
+
+
+ /* button outline*/
+
+ .uk-button-primary-outline {
+
+     border: solid 1px var(--primary);
+     color: var(--primary);
+     background: none;
+     cursor: pointer;
+ }
+
+ .uk-button-primary-outline:hover,
+ .uk-button-primary-outline:focus {
+     background: var(--bg-primary);
+     color: var(--white);
+
+ }
+
+
+ .uk-button-white-outline {
+
+     border: solid 1px var(--white);
+     color: var(--white);
+     background: none;
+     cursor: pointer;
+ }
+
+ .uk-button-white-outline:hover,
+ .uk-button-white-outline:focus {
+     background: var(--bg-white);
+     color: var(--primary);
+     background: none;
+     cursor: pointer;
+
+ }
+
+
+ .uk-button-black-outline {
+
+     border: solid 1px var(--black);
+     color: var(--black);
+     background: none;
+     cursor: pointer;
+ }
+
+ .uk-button-black-outline:hover,
+ .uk-button-white-black:focus {
+     background: var(--bg-primary);
+     color: var(--white);
+     border-color: var(--primary);
+     cursor: pointer;
+
+ }
+
+
+ /* end button solid*/
+ .uk-card-default .uk-card-header {
+     border-bottom: 1px solid var(--bg-light);
+ }
+
+ /* image effect */
+ img.uk-effect-1 {
+     transition: -webkit-filter .25s ease;
+     transition: filter .25s ease;
+     transition: filter .25s ease, -webkit-filter .25s ease;
+     -webkit-filter: saturate(30%);
+     filter: saturate(30%);
+ }
+
+
+
+ .uk-corner-hover img.uk-effect-1,
+ .uk-img-effect:hover img.uk-effect-1 {
+     transition: transform 2s ease-out;
+     transform: scale(1.1);
+     -webkit-filter: saturate(100%);
+     filter: saturate(100%);
+ }
+
+
+
+ .uk-list-shine:after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     background-color: rgba(255, 255, 255, 0.4);
+     -webkit-transition: none;
+     -moz-transition: none;
+     transition: none;
+ }
+
+ .uk-list-shine:hover:after {
+     width: 100%;
+     background-color: rgba(255, 255, 255, 0);
+
+     -webkit-transition: all 0.6s ease-in-out;
+     -moz-transition: all 0.6s ease-in-out;
+     transition: all 0.6s ease-in-out;
+ }
+
+
+ /* end image effect */
+
+
+
+ /*boarder corner*/
+ .uk-corner-borders::before,
+ .uk-corner-borders::after {
+     border-color: var(--primary);
+     border-width: 3px;
+     content: '';
+     display: block;
+     height: 25px;
+     pointer-events: none;
+     position: absolute;
+     width: 25px;
+     z-index: 9;
+     margin: 10px;
+     opacity: 0;
+     transition: opacity .4s linear;
+ }
+
+ .uk-corner-hover:hover .uk-corner-borders::before,
+ .uk-corner-hover:hover .uk-corner-borders::after {
+     opacity: 1;
+ }
+
+ .uk-corner-borders--left::before,
+ .uk-corner-borders--left::after {
+     left: 0;
+ }
+
+ .uk-corner-borders--left::before {
+     border-left-style: solid;
+     border-top-style: solid;
+     top: 0;
+ }
+
+ .uk-corner-borders--left::after {
+     border-bottom-style: solid;
+     border-left-style: solid;
+     bottom: 0;
+     display: none;
+ }
+
+ .uk-corner-borders--right::before,
+ .uk-corner-borders--right::after {
+     right: 0;
+ }
+
+ .uk-corner-borders--right::before {
+     border-right-style: solid;
+     border-top-style: solid;
+     top: 0;
+     display: none;
+ }
+
+ .uk-corner-borders--right::after {
+     border-bottom-style: solid;
+     border-right-style: solid;
+     bottom: 0;
+ }
+
+ /*end*/
+
+ .uk-clearfix {
+     clear: both !important;
+     display: block;
+ }
+
+ /* table */
+ section .custom-table table {
+     width: 100%;
+     border-collapse: collapse;
+     /* font-size: 13px; */
+ }
+
+ section .custom-table table tr:nth-child(even) {
+     background: #fff2d9;
+ }
+
+ section .custom-table table tr:nth-child(odd) {
+     background: #FFF
+ }
+
+ section .custom-table table tr,
+ section .custom-table table td,
+ section .custom-table table th {
+     padding: 10px 10px;
+     vertical-align: middle;
+     font-size: 16px;
+ }
+
+ section .custom-table table thead th,
+ section .custom-table table thead td {
+     background: var(--bg-primary);
+     color: var(--white);
+     font-weight: bolder;
+ }
+
+ /* end */
+
+ .uk-show-more {
+     overflow: hidden;
+ }
+
+ /* floating form */
+
+ .uk-floating-form label {
+     margin-bottom: 15px;
+     position: relative;
+     border-bottom: 2px solid var(--black-light);
+     display: block;
+ }
+
+ .uk-floating-form input,
+ .uk-floating-form select,
+ .uk-floating-form textarea,
+ .uk-floating-form input[type="date"] {
+     width: 100%;
+     padding: 10px 0px;
+     margin-top: 20px;
+     border: none;
+     outline: none;
+     font-size: 0.825em;
+     color: #666;
+ }
+
+ .uk-floating-form input::placeholder,
+ .uk-floating-form textarea::placeholder,
+ .uk-floating-form select::placeholder {
+     opacity: 0;
+ }
+
+ .uk-floating-form span {
+     position: absolute;
+     top: 0;
+     left: 0;
+     transform: translateY(20px);
+     transition-duration: 300ms;
+ }
+
+
+
+ .uk-floating-form label:focus-within>span,
+ .uk-floating-form input:not(:placeholder-shown)+span,
+ .uk-floating-form textarea:not(:placeholder-shown)+span,
+ .uk-floating-form select:not(:placeholder-shown)+span {
+     color: var(--primary);
+     transform: translateY(0px);
+
+ }
+
+ .uk-floating-form label:focus-within {
+     border-color: var(--primary);
+
+ }
+
+ /* end floating */

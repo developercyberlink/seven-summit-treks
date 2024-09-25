@@ -1,0 +1,13 @@
+<section class="uk-cover-container uk-position-relative uk-flex uk-flex-middle uk-background-norepeat uk-background-cover uk-background-top-center uk-position-relative " 
+	uk-parallax="bgy: -100; easing: -2;" <?php if($data['page_banner']): ?> data-src="<?php echo e(asset('uploads/banners/'.$data->page_banner)); ?>" <?php endif; ?> uk-height-viewport="expand: true; min-height: 500;" uk-img>
+	 <div class="uk-overlay-primary  uk-position-cover "></div> 
+		<div class="uk-hero-banner-content uk-width-1-1 uk-position-z-index uk-margin-large-top">
+			<div class="uk-container ">
+				<h3 class=" theme-font-extra-bold text-white uk-margin-remove" uk-scrollspy="cls: uk-animation-slide-top-small;   delay: 800; repeat: false;"><?php echo e($data->sub_title); ?></h3>
+				<h1 class=" theme-font-extra-bold text-primary uk-margin-remove" uk-scrollspy="cls: uk-animation-slide-top-small;   delay: 1200; repeat: false;"> 
+           <?php echo e($data->post_title); ?>
+
+            </h1>			 
+			</div>
+		</div>
+	</section><?php /**PATH /home/sevensummittreks/public_html/resources/views/themes/default/common/page-banner2.blade.php ENDPATH**/ ?>

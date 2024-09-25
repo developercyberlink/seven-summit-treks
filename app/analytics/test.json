@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sevensummit-treks",
+  "private_key_id": "fc23a57ea2682781c9bf745fbda9502a2e92248a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCGZBTwt36l6tPE\nSY1e3YJlLMzjA7fI7RDG0sM+BYGQ0mJUKRpgJVWaTUAFoFQRvXs5Em/0UabJMhPP\nYiDHjFcPw0T3JovqWk2+GdXkhc6uW4/aeF08r4CrADR0pRucswS6uJVcGqDn0uLT\nZKQIiYEtgSxU1tHVZi80PZo5DNM3jmMJv0idRgFMs4cBxAqoRRhs/6C0SrIe3jll\n2b9ZcU3RlZwGI5x9oOtWWr1QjlZ4b2iWE+pQXGM9uE9DU/wIRWsGOhSRQ/2bLPY1\ni6j4qfrDGrNNu0vgKlnyPixkKeZLSHDVV4wLnEzRJ0aVx/trzFz7CqRFQY1dE0IS\nhoTsNCbrAgMBAAECggEABgMsPKi47ctXtgxkWr4mO0iJ0g40hrS0b3C2c2vjpAsF\ngyZjm7GP5ttV5eqKWFDV1nPQtmmAwLeQ01JcjRDmRDpEN5pt4AoyODMHsrWZzYsj\nIG8KHNDtPLlBn4ZTees4ZvIjHH/EexqgMzzpachdEyAYT6Nct+NecUPgRnUgbffM\nNcSFGMAALdDUCBNWVadauZuZ7MRQt4uxO/KfAF0o3OEN4wBTf/1vw3hi8Uu4ecXE\nbQrnqa6qDhbMQhnKbcfdsxQhYAJQnebhz+EHgP/O/pPOrLQXMhH+sQA2aPSAL1VZ\nPLmnYOfvzsQsUxKnCgnj89XtQvj1/PghLDsffCC6oQKBgQC5pLazxqd+W4hgyXOs\nujJN/wn+6sZ6XqfgNMsfcX8Is4h67Da4JY6r+5lKcx9B5jQaLccM0vqZa93KG+Ea\nNz/+7UA0i2HigAzJ+UklJdo4zdgPtkfLiDRhFn/Cu/U+Z3LnbSnoAUtrbpCiKn4W\naVNAkU+R0dk/5fcuJvomKuc6twKBgQC5Us8N6sekT7ouLH6bT7dBFyR45I/2dApG\nXRNBsn9CfqBFaxt5GMZ7WKWltWMNG0p7Nx1OPwMqJZla0QFUaGUpe6dpnXwSAayY\nnGeW2ueB1kgeIjYKzpoNjUIhnBO6EMDhlgbdcWeE8nshhCy48aDAaN5AH74iVss2\n0EfxJ/YRbQKBgCuA/Ae5H/sufBEiZGcv4yYABFmmrwhyMikKdidSM5DYcb1Mqa4R\nrxOCjHOz8rlAtykDXUgWEP/vFTSNv/yiwe59rrQhjbjEhTq3nnqEGlWBd4aHEuAR\ndSTjXuFFpr0PBRBStqVV2FS+vkoiZxXdbNMOunTTlnOw8nHwVGKpXzKVAoGBAJD4\noXZumfwETk1+iw/t3RnzA5n6mk+d2MfQWZcEDh8zNSb4sYYahnHJF9O4QCLpnWsj\n4y3phw06Wmu7ogGopLI9w+mPw5XGb4D2oOZWmdFskf/YnVP46HP/c6MdGCVuo6QU\nm4wxAVzz3rSKU/3dLvY1Ut7wtejg4pkfd5fDve9FAoGAMaJg9Piy9EmTOO8kxC1V\nSCx00X4aNoknPD3r9bWGqQYB54CdyiLSG7r+nQnUlWEvUA5ZIREjASf6qHnbOB2E\nm0av8BMUVsz5h8FgbXnbwuwhBt6f3N3/EC1id0/RIfrkbU/RcXqlxS8TnJlns4uS\nH7dQmnr0rX7nn7QIA9jmhjA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sevensummit-treks@sevensummit-treks.iam.gserviceaccount.com",
+  "client_id": "107944369126427757926",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sevensummit-treks%40sevensummit-treks.iam.gserviceaccount.com"
+}
